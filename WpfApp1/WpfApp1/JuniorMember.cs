@@ -15,6 +15,8 @@ namespace WpfApp1
         public JuniorMember(string Name, DateTime JoinDate, decimal Fee, PaymentSchedule PaymentType)
             : base(Name, JoinDate, Fee, PaymentType) { }
 
+        
+
 
         public override void AnnualFee()
         {

@@ -17,6 +17,7 @@ namespace WpfApp1
 {
     /// <summary>
     /// Github Link: https://github.com/RossMcGlinchey/OOP-January-2022-Exam
+    /// Got stuck on part e which left me with not much time to do the rest when i had finally figured out the renewal date part.
     /// </summary>
     public partial class MainWindow : Window
     {

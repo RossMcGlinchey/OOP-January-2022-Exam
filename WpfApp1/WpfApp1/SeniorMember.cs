@@ -13,7 +13,7 @@ namespace WpfApp1
 
         //Constant
         public SeniorMember(string Name, DateTime JoinDate, decimal Fee, PaymentSchedule PaymentType)
-            : base(Name, JoinDate, Fee, PaymentType { }
+            : base(Name, JoinDate, Fee, PaymentType) { }
 
 
         public override void AnnualFee()
