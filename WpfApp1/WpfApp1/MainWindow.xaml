@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <ListBox x:Name="lbxMemberList" Margin="82,64,467,120"/>
+        <Label Content="Member List" HorizontalAlignment="Left" Margin="82,34,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <RadioButton x:Name="rbAll" Content="All" HorizontalAlignment="Left" Margin="48,367,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbRegular" Content="Regular" HorizontalAlignment="Left" Margin="99,367,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbSenior" Content="Senior" HorizontalAlignment="Left" Margin="172,367,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbJunior" Content="Junior" HorizontalAlignment="Left" Margin="241,367,0,0" VerticalAlignment="Top"/>
+        <Label Content="Member Details" HorizontalAlignment="Left" Margin="512,41,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBlock x:Name="tbName" HorizontalAlignment="Left" Margin="477,77,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Height="26"/>
+        <TextBlock x:Name="tbJoinDate" HorizontalAlignment="Left" Margin="477,108,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" Height="28"/>
+        <TextBlock x:Name="tbBasicFee" HorizontalAlignment="Left" Margin="477,141,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBlock x:Name="tbPaymentSchedule" HorizontalAlignment="Left" Margin="477,173,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBlock x:Name="tbRenewalDate" HorizontalAlignment="Left" Margin="477,204,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBlock x:Name="tbDaysToRenewal" HorizontalAlignment="Left" Margin="477,236,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="157"/>
+        <TextBlock x:Name="tbMemberType" HorizontalAlignment="Left" Margin="477,267,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
 
     </Grid>
 </Window>
