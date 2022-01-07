@@ -10,6 +10,7 @@ namespace WpfApp1
 
     public class Member
     {
+        private DateTime renewalDate;
         #region Properties
 
         public string Name { get; set; }
@@ -17,7 +18,6 @@ namespace WpfApp1
         public decimal Fee { get; set; }
         public PaymentSchedule PaymentType { get; set; }
 
-        private DateTime renewalDate;
         public DateTime RenewalDate
         {
             get
@@ -53,6 +53,14 @@ namespace WpfApp1
 
         }
 
+        public Member(string name, DateTime joinDate, decimal fee, PaymentSchedule paymentType)
+        {
+            Name = name;
+            JoinDate = joinDate;
+            Fee = fee;
+            PaymentType = paymentType;
+        }
+
         #endregion Constructor
 
         #region Methods
@@ -73,6 +81,8 @@ namespace WpfApp1
             }
             
         }
+
+        public abstract void AnnualFee();
         #endregion Methods
     }
 }
